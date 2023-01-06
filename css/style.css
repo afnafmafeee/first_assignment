@@ -14,6 +14,7 @@
 }
 h1,h2,h3,h4,h5,h6 {
     color: #151414;
+    font-weight: 700;
 }
 img {
     max-width: 100%;
@@ -35,16 +36,17 @@ p {
     padding: 20px 25px;
     border-radius: 5px;
     box-shadow: 0px 9px 48px -12px #F15B22;
-
-  
+}
+.text_center {
+    text-align: center;
 }
 /* Header section */
 #header {
     background-image: url("/img/banner2.png");
-    width: 1600px;
     background-repeat: no-repeat;
     padding-top: 233px;
     padding-bottom: 167px;
+    background-size: cover;
     
 }
 .hero_section {
@@ -54,7 +56,6 @@ p {
 .hero_section h1 {
     font-size: 65px;
     line-height: 76.25px;
-    font-weight: 700;
 }
 .hero_section p { 
     font-size: 16px;
@@ -64,17 +65,21 @@ p {
 .inner_failure {
     display: flex;
     gap: 87px;
+    align-items: center;
 }
-
+.failure_img img {
+    max-width: 569px;
+    height: auto;
+}
 .failure_text h2 {
     font-size: 40px;
-    font-weight: 700;
     line-height: 47px;
 }
 .failure_text p {
     font-size: 16px;
     margin-top: 24px;
     margin-bottom: 16px;
+    line-height: 26px;
 }
 .failure_text ul li {
     list-style: none;
@@ -87,4 +92,26 @@ p {
     display: inline-block;
     color: #F15B22;
     margin-right: 8px;
+}
+/* Plan  */
+.common_header h3 {
+    font-size: 40px;
+}
+
+.plan_item {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.item h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.item strong {
+    font-size: 25px;
+    color: #737272;
+    font-weight: 500;
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;  
 }
