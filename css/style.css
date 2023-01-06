@@ -26,16 +26,24 @@ p {
    
 }
 .btn {
-    background: #F15B22;
     border: none;
     display: inline-block;
     font-family: 'Work Sans', sans-serif;
-    color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     padding: 20px 25px;
     border-radius: 5px;
     box-shadow: 0px 9px 48px -12px #F15B22;
+}
+.primary_btn {
+    background: #F15B22;
+    color: #ffffff;
+    box-shadow: 0px 9px 48px -12px #F15B22;
+}
+.btn_white {
+    background: #ffffff;
+    color: #F15B22;
+    box-shadow: 0px 9px 48px -12px #ffffff; 
 }
 .text_center {
     text-align: center;
@@ -62,6 +70,9 @@ p {
     margin: 40px 0px;
 }
 /* Failure Section */
+#failure {
+    margin-bottom: 130px;
+}
 .inner_failure {
     display: flex;
     gap: 87px;
@@ -96,6 +107,7 @@ p {
 /* Plan  */
 .common_header h3 {
     font-size: 40px;
+    margin-bottom: 50px;
 }
 
 .plan_item {
@@ -114,4 +126,21 @@ p {
     font-weight: 500;
     display: inline-block;
     font-family: 'Work Sans', sans-serif;  
+}
+/* Call to action */
+#call {
+    margin: 100px 0px;
+}
+.inner_call {
+    background: linear-gradient(86deg,#f15b22f0,#f15d2233), url(../img/watch.png);
+    background-repeat: no-repeat;
+    padding: 60px 64px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.inner_call h2 {
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 46px;
+    margin-bottom: 24px;
 }
