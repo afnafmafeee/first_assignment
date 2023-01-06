@@ -68,6 +68,7 @@ p {
 .hero_section p { 
     font-size: 16px;
     margin: 40px 0px;
+    line-height: 26px;
 }
 /* Failure Section */
 #failure {
@@ -143,4 +144,53 @@ p {
     color: #ffffff;
     line-height: 46px;
     margin-bottom: 24px;
+}
+/* Footer */
+#footer {
+    background:#151414;
+    padding: 130px 9px;
+}
+.inner_footer {
+    display: flex;
+    gap: 331px;
+}
+
+.footer_text h3 {
+    font-size: 45px;
+    color: #ffffff;
+}
+.footer_text p {
+    line-height: 26px;
+    color: #ffffff;
+}
+.social_icon {
+    display: flex;
+}
+img.icon_gap {
+    padding: 0px 16px;
+}
+.footer_text > p {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.info p {
+    margin-bottom: 16px;
+}
+.footer_form h4 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.footer_form input {
+    border: 1px solid #ffffff;
+    display: block;
+    padding: 18px;
+    width: 282px;
+    background: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 31px;
+    margin-bottom: 16px;
 }
